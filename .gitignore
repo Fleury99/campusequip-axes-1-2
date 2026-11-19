@@ -1,0 +1,34 @@
+# Secrets et configuration locale
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Environnements et caches Python
+.venv/
+**/.venv/
+venv/
+**/venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.original
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Fichiers temporaires et journaux
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Verrous et lots temporaires de publication
+.generator.lock
+**/.generator.lock
+.lot_*.en_cours/
+**/.lot_*.en_cours/

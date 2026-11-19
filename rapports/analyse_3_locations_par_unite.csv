@@ -1,0 +1,12 @@
+﻿campus_id,campus,unite,nombre_lignes_retenues,montant_total
+1,Campus Casablanca,day,5,6001.00
+1,Campus Casablanca,hour,5,940.00
+2,Campus Rabat,day,4,8807.00
+2,Campus Rabat,hour,5,1998.00
+3,Campus Fès,hour,1,1856.00
+4,Campus Marrakech,day,3,7752.00
+4,Campus Marrakech,hour,4,291.00
+5,Campus Tanger,day,5,7314.00
+5,Campus Tanger,hour,5,2434.00
+6,Campus Agadir,day,5,10426.00
+6,Campus Agadir,hour,2,279.00

@@ -1,0 +1,13 @@
+{
+  "status": "REJETE_STRUCTURE",
+  "rules_version": "campusequip-v2.0",
+  "lot": "lot_000004",
+  "error": "Structure CSV invalide : colonnes absentes, supplémentaires ou mauvais ordre",
+  "raw_rows": 0,
+  "duplicates_removed": 0,
+  "accepted_rows": 0,
+  "rejected_rows": 0,
+  "accepted_contracts": 0,
+  "anomaly_rows": 0,
+  "reject_rate": 0.0
+}

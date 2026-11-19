@@ -1,0 +1,38 @@
+services:
+  database:
+    image: postgres:18
+    container_name: campusequip-postgres
+    restart: unless-stopped
+
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:?POSTGRES_DB manquant}
+      POSTGRES_USER: ${POSTGRES_USER:?POSTGRES_USER manquant}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?POSTGRES_PASSWORD manquant}
+
+    ports:
+      - "127.0.0.1:5434:5432"
+
+    volumes:
+      - campusequip_pgdata:/var/lib/postgresql
+
+    mem_limit: 768m
+    cpus: 1.0
+    shm_size: 128mb
+
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - pg_isready -U "$${POSTGRES_USER}" -d "$${POSTGRES_DB}"
+      interval: 5s
+      timeout: 5s
+      retries: 20
+      start_period: 10s
+
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+volumes:
+  campusequip_pgdata:
+    name: campusequip_pgdata

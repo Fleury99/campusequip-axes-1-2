@@ -1,0 +1,18 @@
+{
+  "status": "CHARGE",
+  "rules_version": "campusequip-v2.0",
+  "campaign_id": "ea40ccec-bfa0-476c-8f20-5e9a3b77d579",
+  "batch_number": 1,
+  "input_signature": "6009cceb86b95b4ee8615e0cf57931315556a262eb8ba61dd8a191df320e0e24",
+  "locations_sha256": "16377ef4923e1237caaf610bf1523923939bbf7dabbd74d3a6987b25c27211e1",
+  "referentiels_sha256": "ca418e9ede101b63bf07eaefa1ce7ec7ffd6e995c3cb54a5bbd1044f0bb4baea",
+  "raw_rows": 41,
+  "duplicates_removed": 0,
+  "deduplicated_rows": 41,
+  "accepted_rows": 41,
+  "rejected_rows": 0,
+  "accepted_contracts": 20,
+  "anomaly_rows": 0,
+  "reject_rate": 0.0,
+  "alerts": []
+}

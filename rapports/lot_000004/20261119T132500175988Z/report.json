@@ -1,0 +1,21 @@
+{
+  "status": "FAILED",
+  "rules_version": "campusequip-v2.0",
+  "campaign_id": "ea40ccec-bfa0-476c-8f20-5e9a3b77d579",
+  "batch_number": 4,
+  "input_signature": "990f1a7f1f358f6a3cf4686c70739a39c776457fb31842e6cd39b097b212a93c",
+  "locations_sha256": "a98df0f199b176ab5bc24e2f14fb2891a36b3f1525fcdeaf019945b6ed78f858",
+  "referentiels_sha256": "ca418e9ede101b63bf07eaefa1ce7ec7ffd6e995c3cb54a5bbd1044f0bb4baea",
+  "raw_rows": 38,
+  "duplicates_removed": 1,
+  "deduplicated_rows": 37,
+  "accepted_rows": 29,
+  "rejected_rows": 8,
+  "accepted_contracts": 16,
+  "anomaly_rows": 1,
+  "reject_rate": 0.216216,
+  "alerts": [
+    "HIGH_REJECT_RATE"
+  ],
+  "load_error": "RuntimeError: ORDER_ID_CONFLICT: contrats déjà chargés : [1, 46, 47, 48, 49, 50, 51, 52, 53, 54]"
+}

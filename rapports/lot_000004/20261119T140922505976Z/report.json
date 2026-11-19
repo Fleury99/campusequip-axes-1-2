@@ -1,0 +1,20 @@
+{
+  "status": "DEJA_CHARGE",
+  "rules_version": "campusequip-v2.0",
+  "campaign_id": "ea40ccec-bfa0-476c-8f20-5e9a3b77d579",
+  "batch_number": 4,
+  "input_signature": "27fcfb0a086d91b69309383a040f285e60668b9402ee36398da53c5fe7db6a8d",
+  "locations_sha256": "560115a1bcd1f8fc11c48b219314a38e1801e1038f4e6531678c3a493e6dbfad",
+  "referentiels_sha256": "ca418e9ede101b63bf07eaefa1ce7ec7ffd6e995c3cb54a5bbd1044f0bb4baea",
+  "raw_rows": 37,
+  "duplicates_removed": 1,
+  "deduplicated_rows": 36,
+  "accepted_rows": 23,
+  "rejected_rows": 13,
+  "accepted_contracts": 16,
+  "anomaly_rows": 1,
+  "reject_rate": 0.361111,
+  "alerts": [
+    "HIGH_REJECT_RATE"
+  ]
+}

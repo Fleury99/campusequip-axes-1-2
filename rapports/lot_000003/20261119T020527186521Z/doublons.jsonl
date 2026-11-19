@@ -1,0 +1,1 @@
+{"source_row": 5, "first_source_row": 2, "reason": "EXACT_DUPLICATE_AFTER_NORMALIZATION", "raw": {"contract_id": "41", "client_id": "1498", "site_id": "9", "start_date": "2026-11-20", "status": "paid", "line_no": "1", "equipment_id": "63", "quantity": "1", "unit": "day", "duration": "2", "unit_rate": "296.00"}}

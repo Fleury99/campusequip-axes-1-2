@@ -1,0 +1,41 @@
+{
+  "periode": [
+    "2026-11-01",
+    "2026-11-21"
+  ],
+  "date_extraction": "2026-11-18T20:31:20.782444",
+  "lignes_quotidiennes": 126,
+  "equipements_classes": 42,
+  "groupes_campus_unite": 11,
+  "contrats_retenus": 21,
+  "lignes_retenues": 44,
+  "ca_total_mad": "48098.00",
+  "ca_jour_mad": "40300.00",
+  "ca_heure_mad": "7798.00",
+  "campus": [
+    {
+      "nom": "Campus Rabat",
+      "ca_mad": "10805.00"
+    },
+    {
+      "nom": "Campus Agadir",
+      "ca_mad": "10705.00"
+    },
+    {
+      "nom": "Campus Tanger",
+      "ca_mad": "9748.00"
+    },
+    {
+      "nom": "Campus Marrakech",
+      "ca_mad": "8043.00"
+    },
+    {
+      "nom": "Campus Casablanca",
+      "ca_mad": "6941.00"
+    },
+    {
+      "nom": "Campus Fès",
+      "ca_mad": "1856.00"
+    }
+  ]
+}
